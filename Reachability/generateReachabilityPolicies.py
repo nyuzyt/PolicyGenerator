@@ -22,8 +22,8 @@ def main():
 
     print("hosts:",args.hosts)
     print("policy type:",args.policyType)
-    file_reachablityPolicies = open('Sample Outputs/ReachabilityPolicies.txt','w').close()
-    file_reachablityPolicies = open('Sample Outputs/ReachabilityPolicies.txt','w')
+    file_reachablityPolicies = open('SampleOutputs/ReachabilityPolicies.txt','w').close()
+    file_reachablityPolicies = open('SampleOutputs/ReachabilityPolicies.txt','w')
 
     s = Subnet()
     subnetList = s.createSubnets(int(args.hosts))
