@@ -9,7 +9,7 @@ from PolicyGenerator.Policy import *
 from PolicyGenerator.Reachability.TraverseSourceInfoGraph import *
 from PolicyGenerator.Reachability.TraverseDestInfoGraph import *
 import ipaddress
-
+import os
 
 class Overlap():
     def __init__(self):
@@ -17,10 +17,10 @@ class Overlap():
 
     def getOverlappedPolicies(self,listReachablityPolicies,listMeasurementPolicies):
 
-        file_measurementPolicies = open('../Sample Outputs/overlappedMeasurementPolicies.txt','w').close()
-        file_measurementPolicies = open('../Sample Outputs/overlappedMeasurementPolicies.txt','w')
-        file_reachablityPolicies = open('../Sample Outputs/overlappedReachabilityPolicies.txt','w').close()
-        file_reachablityPolicies = open('../Sample Outputs/overlappedReachabilityPolicies.txt','w')
+        file_measurementPolicies = open('../SampleOutputs/overlappedMeasurementPolicies.txt','w').close()
+        file_measurementPolicies = open('../SampleOutputs/overlappedMeasurementPolicies.txt','w')
+        file_reachablityPolicies = open('../SampleOutputs/overlappedReachabilityPolicies.txt','w').close()
+        file_reachablityPolicies = open('../SampleOutputs/overlappedReachabilityPolicies.txt','w')
 
         assert isinstance(listMeasurementPolicies,list)
         assert isinstance(listReachablityPolicies,list)
