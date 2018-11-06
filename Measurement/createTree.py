@@ -2,7 +2,7 @@ __author__ = 'vishlesh'
 
 import ipaddress
 import random
-from SDN_PolicyGenerator.Measurement.BinaryTree import *
+from PolicyGenerator.Measurement.BinaryTree import *
 class CreateTree:
 
     def createTree(self, srcIP, dstIP):

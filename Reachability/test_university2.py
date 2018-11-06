@@ -1,7 +1,7 @@
 __author__ = 'vishlesh'
 
-from SDN_PolicyGenerator.subnet import *
-from SDN_PolicyGenerator.Reachability.TraverseSourceInfoGraph import *
+from PolicyGenerator.subnet import *
+from PolicyGenerator.Reachability.TraverseSourceInfoGraph import *
 
 # usage enter No. of hosts in the network should be given to s.createSubnets(number of End host)
 s = Subnet()

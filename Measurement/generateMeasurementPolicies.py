@@ -1,7 +1,8 @@
 __author__ = 'vishlesh'
 #!/usr/bin/env python3
 import sys
-sys.path.append('/home/vishlesh/SDN_RuleSetGenerator/')
+#sys.path.append('/home/vishlesh/PolicyBench')
+sys.path.append('/home/ovs2/zyt/PolicyBench/')
 from PolicyGenerator.Measurement.MeasurementPolicies import *
 from PolicyGenerator.Reachability import *
 from PolicyGenerator.subnet import *

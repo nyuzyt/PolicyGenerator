@@ -1,7 +1,9 @@
 __author__ = 'vishlesh'
 
 import sys
-sys.path.append('/home/vishlesh/PolicyBench')
+#sys.path.append('/home/vishlesh/PolicyBench')
+sys.path.append('/home/ovs2/zyt/PolicyBench/')
+
 from PolicyGenerator.Measurement.MeasurementPolicies import *
 from PolicyGenerator.Policy import *
 from PolicyGenerator.Reachability.TraverseSourceInfoGraph import *
