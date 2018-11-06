@@ -9,6 +9,7 @@ from PolicyGenerator.Policy import *
 from PolicyGenerator.Reachability.TraverseSourceInfoGraph import *
 from PolicyGenerator.Reachability.TraverseDestInfoGraph import *
 import ipaddress
+import os
 
 
 class Overlap():
@@ -17,7 +18,8 @@ class Overlap():
 
     def getOverlappedPolicies(self,listReachablityPolicies,listMeasurementPolicies):
 
-        file_measurementPolicies = open('../Sample Outputs/overlappedMeasurementPolicies.txt','w').close()
+	#os.chdir('../')
+       	file_measurementPolicies = open('../Sample Outputs/overlappedMeasurementPolicies.txt','w').close()
         file_measurementPolicies = open('../Sample Outputs/overlappedMeasurementPolicies.txt','w')
         file_reachablityPolicies = open('../Sample Outputs/overlappedReachabilityPolicies.txt','w').close()
         file_reachablityPolicies = open('../Sample Outputs/overlappedReachabilityPolicies.txt','w')
